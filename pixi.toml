@@ -1,0 +1,12 @@
+[workspace]
+authors = ["Anaïs DELASSUS <anais.delassus@ens.uvsq.fr>"]
+channels = ["conda-forge"]
+name = "montecarlo-pixi"
+platforms = ["osx-64", "linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+matplotlib = ">=3.10.6,<4"
+ffmpeg = ">=8.0.0,<9"
