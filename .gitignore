@@ -3,8 +3,5 @@
 !.pixi/config.toml
 
 # générés par python
-*.mp4
-*.gif
-*.png
-*.jpg
-*.jpeg
+out2d/
+out3d/
