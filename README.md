@@ -15,7 +15,7 @@ Clonez ce dépôt et déplacez-vous dans le dossier :
 git clone https://github.com/anaisdlss/Monte-Carlo-Pixi-Projet.git Delassus_MonteCarlo
 cd Delassus_MonteCarlo
 ```
-Puis synchronisez l'environnement pixi:
+Puis synchronisez l'environnement pixi du dossier:
 ```bash
 pixi sync
 ```
