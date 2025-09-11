@@ -12,5 +12,5 @@ Vous devez également avoir **git** installé sur votre machine.
 Clonez ce dépôt et déplacez-vous dans le dossier :
 
 ```bash
-git clone https://github.com/pierrepo/demo-pixi-pp.git
-cd demo-pixi-pp
+git clone https://github.com/anaisdlss/Monte-Carlo-Pixi-Projet.git
+cd Monte-Carlo-Pixi-Projet
