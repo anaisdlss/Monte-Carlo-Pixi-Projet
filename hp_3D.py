@@ -33,30 +33,12 @@ MASTER_SEED = 100
 
 # ------------------ HP : conversion AA -> HP ------------------
 
-HP_MAP = {
-    "A": "H",
-    "V": "H",
-    "L": "H",
-    "I": "H",
-    "M": "H",
-    "F": "H",
-    "W": "H",
-    "Y": "H",
-    "R": "P",
-    "N": "P",
-    "D": "P",
-    "C": "P",
-    "Q": "P",
-    "E": "P",
-    "G": "P",
-    "H": "P",
-    "K": "P",
-    "P": "P",
-    "S": "P",
-    "T": "P",
-}
+HYDROPHOBIC = set("ACFILMVWY")  # -> H (marron)
+ALL_AA = "ACDEFGHIKLMNPQRSTVWY"
 
-COLORS = {"H": "#00cfe6", "P": "#8c5a2b"}
+HP_MAP = {aa: ("H" if aa in HYDROPHOBIC else "P") for aa in ALL_AA}
+
+COLORS = {"P": "#00cfe6", "H": "#8c5a2b"}
 
 
 def conversion_hp(seq_aa):
