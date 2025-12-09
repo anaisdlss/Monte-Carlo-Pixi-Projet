@@ -34,7 +34,7 @@ cd Delassus_MonteCarlo
 ```
 Then synchronize the Pixi environment for the project:
 ```bash
-pixi sync
+pixi install
 ```
 ---
 
