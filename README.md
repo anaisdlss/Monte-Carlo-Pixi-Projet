@@ -48,7 +48,7 @@ Start by running the **hp_2d.py** script:
 pixi run python hp_2d.py
 ```
 Follow the on-screen instructions.
-Execution should take a few dozen seconds.
+Execution should take a few seconds.
 Make sure to close the generated video window so that the script can finish properly.
 All generated outputs will appear in the **out2d/** directory.
 
